@@ -23,7 +23,6 @@ galaxy_info:
   galaxy_tags:
     - jenkins
     - pipeline
-    - wcmio
 dependencies:
   # install p!v jenkins specific plugins
   - { role: wcm_io_devops.jenkins_plugins,
