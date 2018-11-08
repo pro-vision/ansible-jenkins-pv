@@ -12,13 +12,13 @@ It covers Plugins that are not already covered by:
 
 The Version number will follow the following versioning schema:
 
-`v[JenkinsVersion]-[ReleaseCount]`
+`[JenkinsVersion]-[ReleaseCount]`
 
 So for example:
-* `v2.138.1-1` - first release for Jenkins 2.107.2
-* `v2.107.2-2` - second release for Jenkins 2.107.2
-* `v2.107.2-N` - nth release for Jenkins 2.107.2
-* `v2.138.1-1` - first release for Jenkins 2.138.1
+* `2.138.1-1` - first release for Jenkins 2.107.2
+* `2.107.2-2` - second release for Jenkins 2.107.2
+* `2.107.2-N` - nth release for Jenkins 2.107.2
+* `2.138.1-1` - first release for Jenkins 2.138.1
 
 ## Requirements
 
@@ -93,3 +93,7 @@ As transitive dependency this role uses the
 [wcm_io_devops.jenkins_facts](https://github.com/wcm-io-devops/ansible-jenkins-facts)
 role to retrieve the list of installed plugins from the Jenkins
 instance.
+
+## License
+
+Apache 2.0
