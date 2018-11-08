@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: jenkins_pv
   author: Tobias Richter
-  description: Ansible role for setting up a Jenkins instance with commong pro!vision tools
+  description: Ansible role for setting up a Jenkins instance with common pro!vision tools
   company: pro!vision
   license: Apache
   min_ansible_version: 2.4
