@@ -118,8 +118,6 @@ jenkins_pv_plugins_present:
     version: "3.0"
   - name: job-restrictions
     version: "0.8"
-  - name: jquery
-    version: "1.12.4-0"
   - name: ldap
     version: "1.20"
   - name: locale
