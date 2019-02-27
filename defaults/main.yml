@@ -31,9 +31,9 @@ jenkins_pv_debug: false
 # Plugins and their versions that must be present on p!v jenkins instances
 jenkins_pv_plugins_present:
   - name: active-directory
-    version: "2.10"
+    version: "2.12"
   - name: aws-credentials
-    version: "1.24"
+    version: "1.26"
   - name: aws-java-sdk
     version: "1.11.457"
   - name: ansible
@@ -47,7 +47,7 @@ jenkins_pv_plugins_present:
   - name: "build-blocker-plugin"
     version: "1.7.3"
   - name: build-name-setter
-    version: "1.6.9"
+    version: "1.7.0"
   - name: build-pipeline-plugin
     version: "1.5.8"
   - name: build-timeout
@@ -63,7 +63,7 @@ jenkins_pv_plugins_present:
   - name: copyartifact
     version: "1.41"
   - name: command-launcher
-    version: "1.2"
+    version: "1.3"
   - name: conditional-buildstep
     version: "1.3.6"
   - name: configurationslicing
@@ -77,9 +77,9 @@ jenkins_pv_plugins_present:
   - name: delivery-pipeline-plugin
     version: "1.3.2"
   - name: dependency-check-jenkins-plugin
-    version: "4.0.1"
+    version: "4.0.2"
   - name: dependency-track
-    version: 2.0.2
+    version: "2.1.0"
   - name: disk-usage
     version: "0.28"
   - name: envinject-api
@@ -97,15 +97,15 @@ jenkins_pv_plugins_present:
   - name: gatling
     version: "1.2.5"
   - name: git-parameter
-    version: "0.9.6"
+    version: "0.9.10"
   - name: greenballs
     version: "1.15"
   - name: groovy
-    version: "2.0"
+    version: "2.1"
   - name: groovy-postbuild
     version: "2.4.3"
   - name: htmlpublisher
-    version: "1.17"
+    version: "1.18"
   - name: icon-shim
     version: "2.0.3"
   - name: jdk-tool
@@ -115,9 +115,11 @@ jenkins_pv_plugins_present:
   - name: jobConfigHistory
     version: "2.19"
   - name: job-import-plugin
-    version: "3.0"
+    version: "3.1"
   - name: job-restrictions
     version: "0.8"
+  - name: jquery-ui
+    version: "1.0.2"
   - name: ldap
     version: "1.20"
   - name: locale
@@ -145,21 +147,21 @@ jenkins_pv_plugins_present:
   - name: Parameterized-Remote-Trigger
     version: "3.0.7"
   - name: performance
-    version: "3.14"
+    version: "3.15"
   - name: pipeline-maven
-    version: "3.6.5"
+    version: "3.6.7"
   - name: plugin-usage-plugin
     version: "0.4"
   - name: publish-over
     version: "0.22"
   - name: publish-over-cifs
-    version: "0.11"
+    version: "0.12"
   - name: publish-over-ssh
     version: "1.20.1"
   - name: resource-disposer
     version: "0.12"
   - name: role-strategy
-    version: "2.9.0"
+    version: "2.10"
   - name: ruby-runtime
     version: "0.12"
   - name: run-condition
@@ -177,7 +179,7 @@ jenkins_pv_plugins_present:
   - name: ssh-agent
     version: "1.17"
   - name: ssh-slaves
-    version: "1.29.1"
+    version: "1.29.4"
   - name: subversion
     version: "2.12.1"
   - name: testng-plugin
@@ -197,15 +199,15 @@ jenkins_pv_plugins_present:
   - name: violations
     version: "0.7.11"
   - name: warnings
-    version: "4.68"
+    version: "5.0.1"
   - name: windows-slaves
-    version: "1.3.1"
+    version: "1.4"
   - name: workflow-aggregator
     version: "2.6"
   - name: ws-cleanup
     version: "0.37"
   - name: xunit
-    version: "2.3.1"
+    version: "2.3.2"
 
 # Plugins that must be absent on p!v jenkins instances
 jenkins_pv_plugins_absent:
