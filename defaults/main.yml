@@ -123,7 +123,7 @@ jenkins_pv_plugins_present:
   - name: locale
     version: "1.4"
   - name: lockable-resources
-    version: "2.3"
+    version: "2.4"
   - name: log-parser
     version: "2.0"
   - name: mapdb-api
