@@ -86,8 +86,6 @@ jenkins_pv_plugins_present:
     version: "1.5"
   - name: envinject
     version: "2.1.6"
-  - name: extended-choice-parameter
-    version: "0.76"
   - name: extensible-choice-parameter
     version: "1.6.0"
   - name: extended-read-permission
