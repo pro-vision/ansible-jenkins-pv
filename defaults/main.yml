@@ -130,6 +130,8 @@ jenkins_pv_plugins_present:
     version: "1.0.9.0"
   - name: mask-passwords
     version: "2.12.0"
+  - name: mattermost
+    version: "2.6.3"
   - name: matrix-auth
     version: "2.3"
   - name: msbuild
