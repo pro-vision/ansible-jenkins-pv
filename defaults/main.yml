@@ -44,7 +44,7 @@ jenkins_pv_plugins_present:
     version: "1.2"
   - name: badge
     version: "1.7"
-  - name: "build-blocker-plugin"
+  - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-name-setter
     version: "1.7.1"
