@@ -44,7 +44,49 @@ jenkins_pv_plugins_present:
     version: "1.2"
   - name: badge
     version: "1.7"
-  - name: "build-blocker-plugin"
+  - name: blueocean-autofavorite
+    version: "1.2.4"
+  - name: blueocean-bitbucket-pipeline
+    version: "1.14.0"
+  - name: blueocean-commons
+    version: "1.14.0"
+  - name: blueocean-config
+    version: "1.14.0"
+  - name: blueocean-core-js
+    version: "1.14.0"
+  - name: blueocean-dashboard
+    version: "1.14.0"
+  - name: blueocean-display-url
+    version: "2.2.0"
+  - name: blueocean-events
+    version: "1.14.0"
+  - name: blueocean-executor-info
+    version: "1.14.0"
+  - name: blueocean-git-pipeline
+    version: "1.14.0"
+  - name: blueocean-github-pipeline
+    version: "1.14.0"
+  - name: blueocean-i18n
+    version: "1.14.0"
+  - name: blueocean-jira
+    version: "1.14.0"
+  - name: blueocean-jwt
+    version: "1.14.0"
+  - name: blueocean-rest-impl
+    version: "1.14.0"
+  - name: blueocean-personalization
+    version: "1.14.0"
+  - name: blueocean-pipeline-api-impl
+    version: "1.14.0"
+  - name: blueocean-pipeline-editor
+    version: "1.14.0"
+  - name: blueocean-pipeline-scm-api
+    version: "1.14.0"
+  - name: blueocean-rest
+    version: "1.14.0"
+  - name: blueocean-web
+    version: "1.14.0"
+  - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-name-setter
     version: "1.7.1"
@@ -60,6 +102,8 @@ jenkins_pv_plugins_present:
     version: "2.15"
   - name: clone-workspace-scm
     version: "0.6"
+  - name: cloudbees-bitbucket-branch-source
+    version: "2.4.4"
   - name: copyartifact
     version: "1.42"
   - name: command-launcher
@@ -92,22 +136,34 @@ jenkins_pv_plugins_present:
     version: "2.0"
   - name: extra-columns
     version: "1.20"
+  - name: favorite
+    version: "2.3.2"
   - name: gatling
     version: "1.2.5"
   - name: git-parameter
     version: "0.9.10"
+  - name: github
+    version: "1.29.4"
+  - name: github-api
+    version: "1.95"
+  - name: github-branch-source
+    version: "2.4.5"
   - name: greenballs
     version: "1.15"
   - name: groovy
     version: "2.2"
   - name: groovy-postbuild
     version: "2.4.3"
+  - name: handy-uri-templates-2-api
+    version: "2.1.7-1.0"
   - name: htmlpublisher
     version: "1.18"
   - name: icon-shim
     version: "2.0.3"
   - name: jdk-tool
     version: "1.2"
+  - name: jenkins-design-language
+    version: "1.14.0"
   - name: jira
     version: "3.0.6"
   - name: jobConfigHistory
@@ -130,8 +186,12 @@ jenkins_pv_plugins_present:
     version: "1.0.9.0"
   - name: mask-passwords
     version: "2.12.0"
+  - name: mattermost
+    version: "2.6.3"
   - name: matrix-auth
     version: "2.3"
+  - name: mercurial
+    version: "2.5"
   - name: msbuild
     version: "1.29"
   - name: multiple-scms
@@ -156,6 +216,8 @@ jenkins_pv_plugins_present:
     version: "0.12"
   - name: publish-over-ssh
     version: "1.20.1"
+  - name: pubsub-light
+    version: "1.12"
   - name: resource-disposer
     version: "0.12"
   - name: role-strategy
@@ -170,6 +232,8 @@ jenkins_pv_plugins_present:
     version: "0.24"
   - name: slave-setup
     version: "1.10"
+  - name: sse-gateway
+    version: "1.17"
   - name: sonar
     version: "2.8.1"
   - name: ssh
@@ -192,6 +256,8 @@ jenkins_pv_plugins_present:
     version: "1.0.3"
   - name: URLSCM
     version: "1.6"
+  - name: variant
+    version: "1.2"
   - name: view-job-filters
     version: "2.1.1"
   - name: violations
