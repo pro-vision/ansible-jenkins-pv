@@ -192,6 +192,7 @@ jenkins_pv_plugins_present:
     version: "2.12.0"
   - name: mattermost
     version: "2.6.3"
+  # do not update until job-dsl is 1.72+
   - name: matrix-auth
     version: "2.3"
   - name: mercurial
@@ -224,7 +225,7 @@ jenkins_pv_plugins_present:
     version: "1.12"
   - name: resource-disposer
     version: "0.12"
-  # do not update until configuration
+  # do not update until configuration-as-code is 1.17+
   - name: role-strategy
     version: "2.10"
   - name: ruby-runtime
