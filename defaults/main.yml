@@ -56,7 +56,6 @@ jenkins_pv_plugins_present:
     version: "1.18.1"
   - name: blueocean-dashboard
     version: "1.18.1"
-  # do not update until script-security is 1.58+
   - name: blueocean-display-url
     version: "2.3.0"
   - name: blueocean-events
@@ -73,7 +72,6 @@ jenkins_pv_plugins_present:
     version: "1.18.1"
   - name: blueocean-jwt
     version: "1.18.1"
-  # do not update to 1.17 until workflow-cps is 2.66+
   - name: blueocean-rest-impl
     version: "1.18.1"
   - name: blueocean-personalization
@@ -198,7 +196,6 @@ jenkins_pv_plugins_present:
     version: "2.12.0"
   - name: mattermost
     version: "2.7.0"
-  # do not update until job-dsl is 1.72+
   - name: matrix-auth
     version: "2.4.2"
   - name: mercurial
@@ -231,7 +228,6 @@ jenkins_pv_plugins_present:
     version: "1.12"
   - name: resource-disposer
     version: "0.13"
-  # do not update until configuration-as-code is 1.17+
   - name: role-strategy
     version: "2.13"
   - name: ruby-runtime
