@@ -250,6 +250,8 @@ jenkins_pv_plugins_present:
     version: "1.15"
   - name: test-results-analyzer
     version: "0.3.5"
+  - name: text-finder
+    version: "1.12"
   - name: throttle-concurrents
     version: "2.0.1"
   - name: translation
