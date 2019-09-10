@@ -33,13 +33,13 @@ jenkins_pv_plugins_present:
   - name: active-directory
     version: "2.16"
   - name: aws-credentials
-    version: "1.27"
+    version: "1.28"
   - name: aws-java-sdk
     version: "1.11.594"
   - name: ansible
     version: "1.0"
   - name: ant
-    version: "1.9"
+    version: "1.10"
   - name: artifactdeployer
     version: "1.2"
   - name: badge
@@ -47,49 +47,49 @@ jenkins_pv_plugins_present:
   - name: blueocean-autofavorite
     version: "1.2.4"
   - name: blueocean-bitbucket-pipeline
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-commons
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-config
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-core-js
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-dashboard
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-display-url
     version: "2.3.0"
   - name: blueocean-events
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-executor-info
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-git-pipeline
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-github-pipeline
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-i18n
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-jira
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-jwt
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-rest-impl
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-personalization
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-pipeline-api-impl
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-pipeline-editor
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-pipeline-scm-api
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-rest
-    version: "1.18.1"
+    version: "1.19.0"
   - name: blueocean-web
-    version: "1.18.1"
+    version: "1.19.0"
   - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-name-setter
-    version: "2.0.1"
+    version: "2.0.3"
   - name: build-pipeline-plugin
     version: "1.5.8"
   - name: build-timeout
@@ -101,7 +101,7 @@ jenkins_pv_plugins_present:
   - name: clone-workspace-scm
     version: "0.6"
   - name: cloudbees-bitbucket-branch-source
-    version: "2.4.5"
+    version: "2.4.6"
   - name: copyartifact
     version: "1.42.1"
   - name: conditional-buildstep
@@ -127,7 +127,7 @@ jenkins_pv_plugins_present:
   - name: envinject-api
     version: "1.6"
   - name: envinject
-    version: "2.2.0"
+    version: "2.2.1"
   - name: extensible-choice-parameter
     version: "1.6.0"
   - name: extended-read-permission
@@ -145,7 +145,7 @@ jenkins_pv_plugins_present:
   - name: github-api
     version: "1.95"
   - name: github-branch-source
-    version: "2.5.5"
+    version: "2.5.6"
   - name: greenballs
     version: "1.15"
   - name: groovy
@@ -161,13 +161,13 @@ jenkins_pv_plugins_present:
   - name: icon-shim
     version: "2.0.3"
   - name: instant-messaging
-    version: "1.37"
+    version: "1.38"
   - name: jenkins-design-language
-    version: "1.18.1"
+    version: "1.19.0"
   - name: jira
-    version: "3.0.8"
+    version: "3.0.9"
   - name: jobConfigHistory
-    version: "2.23.1"
+    version: "2.24"
   - name: job-import-plugin
     version: "3.2"
   - name: job-restrictions
@@ -205,7 +205,7 @@ jenkins_pv_plugins_present:
   - name: parameterized-trigger
     version: "2.35.2"
   - name: Parameterized-Remote-Trigger
-    version: "3.0.8"
+    version: "3.0.9"
   - name: performance
     version: "3.17"
   - name: pipeline-maven
@@ -219,11 +219,11 @@ jenkins_pv_plugins_present:
   - name: publish-over-ssh
     version: "1.20.1"
   - name: pubsub-light
-    version: "1.12"
+    version: "1.13"
   - name: resource-disposer
     version: "0.13"
   - name: role-strategy
-    version: "2.13"
+    version: "2.14"
   - name: ruby-runtime
     version: "0.12"
   - name: run-condition
@@ -235,7 +235,7 @@ jenkins_pv_plugins_present:
   - name: slave-setup
     version: "1.10"
   - name: sse-gateway
-    version: "1.19"
+    version: "1.20"
   - name: sonar
     version: "2.9"
   - name: ssh
