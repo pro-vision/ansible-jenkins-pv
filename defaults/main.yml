@@ -167,7 +167,7 @@ jenkins_pv_plugins_present:
   - name: jira
     version: "3.0.9"
   - name: jobConfigHistory
-    version: "2.23.1"
+    version: "2.24"
   - name: job-import-plugin
     version: "3.2"
   - name: job-restrictions
@@ -223,7 +223,7 @@ jenkins_pv_plugins_present:
   - name: resource-disposer
     version: "0.13"
   - name: role-strategy
-    version: "2.13"
+    version: "2.14"
   - name: ruby-runtime
     version: "0.12"
   - name: run-condition
