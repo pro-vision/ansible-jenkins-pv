@@ -198,6 +198,8 @@ jenkins_pv_plugins_present:
     version: "1.29"
   - name: multiple-scms
     version: "0.6"
+  - name: nvm-wrapper
+    version: "0.1.7"
   - name: pam-auth
     version: "1.5.1"
   - name: parameter-separator
@@ -210,6 +212,8 @@ jenkins_pv_plugins_present:
     version: "3.17"
   - name: pipeline-maven
     version: "3.8.1"
+  - name: pipeline-npm
+    version: "0.9.2"
   - name: plugin-usage-plugin
     version: "0.4"
   - name: publish-over
