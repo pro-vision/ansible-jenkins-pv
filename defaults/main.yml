@@ -88,6 +88,8 @@ jenkins_pv_plugins_present:
     version: "1.19.0"
   - name: build-blocker-plugin
     version: "1.7.3"
+  - name: build-monitor-plugin
+    version: "1.12+build.201809061734"
   - name: build-name-setter
     version: "2.0.3"
   - name: build-pipeline-plugin
