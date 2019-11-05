@@ -262,8 +262,6 @@ jenkins_pv_plugins_present:
     version: "2.0.1"
   - name: translation
     version: "1.16"
-  - name: trilead-api
-    version: "1.0.5"
   - name: URLSCM
     version: "1.6"
   - name: variant
