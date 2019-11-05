@@ -181,7 +181,7 @@ jenkins_pv_plugins_present:
   - name: locale
     version: "1.4"
   - name: lockable-resources
-    version: "2.5"
+    version: "2.7"
   - name: log-parser
     version: "2.1"
   - name: m2release
