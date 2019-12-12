@@ -35,7 +35,7 @@ jenkins_pv_plugins_present:
   - name: aws-credentials
     version: "1.28"
   - name: aws-java-sdk
-    version: "1.11.650"
+    version: "1.11.687"
   - name: ansible
     version: "1.0"
   - name: ant
@@ -47,45 +47,45 @@ jenkins_pv_plugins_present:
   - name: blueocean-autofavorite
     version: "1.2.4"
   - name: blueocean-bitbucket-pipeline
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-commons
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-config
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-core-js
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-dashboard
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-display-url
     version: "2.3.0"
   - name: blueocean-events
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-executor-info
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-git-pipeline
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-github-pipeline
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-i18n
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-jira
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-jwt
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-rest-impl
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-personalization
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-pipeline-api-impl
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-pipeline-editor
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-pipeline-scm-api
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-rest
-    version: "1.19.0"
+    version: "1.21.0"
   - name: blueocean-web
-    version: "1.19.0"
+    version: "1.21.0"
   - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-monitor-plugin
@@ -99,11 +99,11 @@ jenkins_pv_plugins_present:
   - name: build-timestamp
     version: "1.0.3"
   - name: claim
-    version: "2.15"
+    version: "2.16"
   - name: clone-workspace-scm
     version: "0.6"
   - name: cloudbees-bitbucket-branch-source
-    version: "2.5.0"
+    version: "2.6.0"
   - name: copyartifact
     version: "1.43"
   - name: conditional-buildstep
@@ -133,13 +133,13 @@ jenkins_pv_plugins_present:
   - name: extensible-choice-parameter
     version: "1.6.0"
   - name: extended-read-permission
-    version: "2.0"
+    version: "3.0"
   - name: extra-columns
     version: "1.21"
   - name: favorite
     version: "2.3.2"
   - name: gatling
-    version: "1.2.6"
+    version: "1.2.7"
   - name: git-parameter
     version: "0.9.11"
   - name: github
@@ -165,9 +165,9 @@ jenkins_pv_plugins_present:
   - name: instant-messaging
     version: "1.38"
   - name: jenkins-design-language
-    version: "1.19.0"
+    version: "1.21.0"
   - name: jira
-    version: "3.0.10"
+    version: "3.0.11"
   - name: jobConfigHistory
     version: "2.24"
   - name: job-import-plugin
@@ -177,7 +177,7 @@ jenkins_pv_plugins_present:
   - name: jquery-ui
     version: "1.0.2"
   - name: ldap
-    version: "1.20"
+    version: "1.21"
   - name: locale
     version: "1.4"
   - name: lockable-resources
@@ -185,13 +185,13 @@ jenkins_pv_plugins_present:
   - name: log-parser
     version: "2.1"
   - name: m2release
-    version: 0.15.0
+    version: "0.16.1"
   - name: mapdb-api
     version: "1.0.9.0"
   - name: mask-passwords
     version: "2.12.0"
   - name: mattermost
-    version: "2.7.1"
+    version: "3.0.0"
   - name: matrix-auth
     version: "2.5"
   - name: mercurial
@@ -207,7 +207,7 @@ jenkins_pv_plugins_present:
   - name: parameter-separator
     version: "1.0"
   - name: parameterized-trigger
-    version: "2.35.2"
+    version: "2.36"
   - name: Parameterized-Remote-Trigger
     version: "3.1.0"
   - name: performance
@@ -279,7 +279,7 @@ jenkins_pv_plugins_present:
   - name: ws-cleanup
     version: "0.37"
   - name: xunit
-    version: "2.3.6"
+    version: "2.3.7"
 
 # Plugins that must be absent on p!v jenkins instances
 jenkins_pv_plugins_absent:
