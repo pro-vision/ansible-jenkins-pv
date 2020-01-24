@@ -248,8 +248,6 @@ jenkins_pv_plugins_present:
     version: "2.6.1"
   - name: ssh-agent
     version: "1.17"
-  - name: ssh-slaves
-    version: "1.31.0"
   - name: subversion
     version: "2.12.2"
   - name: testng-plugin
