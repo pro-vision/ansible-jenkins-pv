@@ -35,11 +35,11 @@ jenkins_pv_plugins_present:
   - name: aws-credentials
     version: "1.28"
   - name: aws-java-sdk
-    version: "1.11.687"
+    version: "1.11.700"
   - name: ansible
     version: "1.0"
   - name: ant
-    version: "1.10"
+    version: "1.11"
   - name: artifactdeployer
     version: "1.2"
   - name: badge
@@ -47,51 +47,51 @@ jenkins_pv_plugins_present:
   - name: blueocean-autofavorite
     version: "1.2.4"
   - name: blueocean-bitbucket-pipeline
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-commons
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-config
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-core-js
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-dashboard
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-display-url
     version: "2.3.0"
   - name: blueocean-events
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-executor-info
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-git-pipeline
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-github-pipeline
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-i18n
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-jira
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-jwt
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-rest-impl
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-personalization
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-pipeline-api-impl
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-pipeline-editor
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-pipeline-scm-api
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-rest
-    version: "1.21.0"
+    version: "1.22.0"
   - name: blueocean-web
-    version: "1.21.0"
+    version: "1.22.0"
   - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-monitor-plugin
     version: "1.12+build.201809061734"
   - name: build-name-setter
-    version: "2.0.3"
+    version: "2.0.4"
   - name: build-pipeline-plugin
     version: "1.5.8"
   - name: build-timeout
@@ -103,7 +103,7 @@ jenkins_pv_plugins_present:
   - name: clone-workspace-scm
     version: "0.6"
   - name: cloudbees-bitbucket-branch-source
-    version: "2.6.0"
+    version: "2.7.0"
   - name: copyartifact
     version: "1.43"
   - name: conditional-buildstep
@@ -121,11 +121,11 @@ jenkins_pv_plugins_present:
   - name: dependency-check-jenkins-plugin
     version: "5.1.0"
   - name: dependency-track
-    version: "2.2.0"
+    version: "2.2.1"
   - name: disk-usage
     version: "0.28"
   - name: dtkit-api
-    version: "2.1.1-1"
+    version: "2.1.2"
   - name: envinject-api
     version: "1.7"
   - name: envinject
@@ -145,9 +145,9 @@ jenkins_pv_plugins_present:
   - name: github
     version: "1.29.5"
   - name: github-api
-    version: "1.95"
+    version: "1.106"
   - name: github-branch-source
-    version: "2.5.8"
+    version: "2.6.0"
   - name: greenballs
     version: "1.15"
   - name: groovy
@@ -165,13 +165,13 @@ jenkins_pv_plugins_present:
   - name: instant-messaging
     version: "1.38"
   - name: jenkins-design-language
-    version: "1.21.0"
+    version: "1.22.0"
   - name: jira
-    version: "3.0.11"
+    version: "3.0.12"
   - name: jobConfigHistory
     version: "2.24"
   - name: job-import-plugin
-    version: "3.3"
+    version: "3.4"
   - name: job-restrictions
     version: "0.8"
   - name: jquery-ui
@@ -185,13 +185,13 @@ jenkins_pv_plugins_present:
   - name: log-parser
     version: "2.1"
   - name: m2release
-    version: "0.16.1"
+    version: "0.16.2"
   - name: mapdb-api
     version: "1.0.9.0"
   - name: mask-passwords
     version: "2.12.0"
   - name: mattermost
-    version: "3.0.0"
+    version: "3.1.0"
   - name: matrix-auth
     version: "2.5"
   - name: mercurial
@@ -209,7 +209,7 @@ jenkins_pv_plugins_present:
   - name: parameterized-trigger
     version: "2.36"
   - name: Parameterized-Remote-Trigger
-    version: "3.1.0"
+    version: "3.1.1"
   - name: performance
     version: "3.17"
   - name: pipeline-maven
@@ -229,7 +229,7 @@ jenkins_pv_plugins_present:
   - name: resource-disposer
     version: "0.14"
   - name: role-strategy
-    version: "2.15"
+    version: "2.16"
   - name: ruby-runtime
     version: "0.12"
   - name: run-condition
@@ -243,13 +243,13 @@ jenkins_pv_plugins_present:
   - name: sse-gateway
     version: "1.20"
   - name: sonar
-    version: "2.10"
+    version: "2.11"
   - name: ssh
     version: "2.6.1"
   - name: ssh-agent
-    version: "1.17"
+    version: "1.19"
   - name: subversion
-    version: "2.12.2"
+    version: "2.13.0"
   - name: testng-plugin
     version: "1.15"
   - name: test-results-analyzer
@@ -271,11 +271,11 @@ jenkins_pv_plugins_present:
   - name: warnings
     version: "5.0.1"
   - name: windows-slaves
-    version: "1.5"
+    version: "1.6"
   - name: workflow-aggregator
     version: "2.6"
   - name: ws-cleanup
-    version: "0.37"
+    version: "0.38"
   - name: xunit
     version: "2.3.7"
 
