@@ -238,6 +238,8 @@ jenkins_pv_plugins_present:
     version: "2.5"
   - name: shiningpanda
     version: "0.24"
+  - name: skip-notifications-trait
+    version: "1.0.5"
   - name: slave-setup
     version: "1.10"
   - name: sse-gateway
