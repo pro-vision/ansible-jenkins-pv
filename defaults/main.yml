@@ -35,7 +35,7 @@ jenkins_pv_plugins_present:
   - name: aws-credentials
     version: "1.28"
   - name: aws-java-sdk
-    version: "1.11.700"
+    version: "1.11.723"
   - name: ansible
     version: "1.0"
   - name: ant
@@ -57,7 +57,7 @@ jenkins_pv_plugins_present:
   - name: blueocean-dashboard
     version: "1.22.0"
   - name: blueocean-display-url
-    version: "2.3.0"
+    version: "2.3.1"
   - name: blueocean-events
     version: "1.22.0"
   - name: blueocean-executor-info
@@ -95,7 +95,7 @@ jenkins_pv_plugins_present:
   - name: build-pipeline-plugin
     version: "1.5.8"
   - name: build-timeout
-    version: "1.19"
+    version: "1.19.1"
   - name: build-timestamp
     version: "1.0.3"
   - name: claim
@@ -133,7 +133,7 @@ jenkins_pv_plugins_present:
   - name: extensible-choice-parameter
     version: "1.6.0"
   - name: extended-read-permission
-    version: "3.0"
+    version: "3.1"
   - name: extra-columns
     version: "1.21"
   - name: favorite
@@ -141,7 +141,7 @@ jenkins_pv_plugins_present:
   - name: gatling
     version: "1.2.7"
   - name: git-parameter
-    version: "0.9.11"
+    version: "0.9.12"
   - name: github
     version: "1.29.5"
   - name: github-api
@@ -159,7 +159,7 @@ jenkins_pv_plugins_present:
   - name: handy-uri-templates-2-api
     version: "2.1.8-1.0"
   - name: htmlpublisher
-    version: "1.21"
+    version: "1.22"
   - name: icon-shim
     version: "2.0.3"
   - name: instant-messaging
@@ -243,7 +243,7 @@ jenkins_pv_plugins_present:
   - name: slave-setup
     version: "1.10"
   - name: sse-gateway
-    version: "1.20"
+    version: "1.22"
   - name: sonar
     version: "2.11"
   - name: ssh
@@ -251,7 +251,7 @@ jenkins_pv_plugins_present:
   - name: ssh-agent
     version: "1.19"
   - name: subversion
-    version: "2.13.0"
+    version: "2.13.1"
   - name: testng-plugin
     version: "1.15"
   - name: test-results-analyzer
@@ -259,7 +259,7 @@ jenkins_pv_plugins_present:
   - name: text-finder
     version: "1.12"
   - name: throttle-concurrents
-    version: "2.0.1"
+    version: "2.0.2"
   - name: translation
     version: "1.16"
   - name: URLSCM
@@ -279,7 +279,7 @@ jenkins_pv_plugins_present:
   - name: ws-cleanup
     version: "0.38"
   - name: xunit
-    version: "2.3.7"
+    version: "2.3.8"
 
 # Plugins that must be absent on p!v jenkins instances
 jenkins_pv_plugins_absent:
