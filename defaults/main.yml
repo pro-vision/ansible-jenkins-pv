@@ -148,6 +148,8 @@ jenkins_pv_plugins_present:
     version: "1.106"
   - name: github-branch-source
     version: "2.6.0"
+  - name: gitlab-branch-source
+    version: "1.4.4"
   - name: greenballs
     version: "1.15"
   - name: groovy
