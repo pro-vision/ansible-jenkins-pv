@@ -216,8 +216,6 @@ jenkins_pv_plugins_present:
     version: "3.1.1"
   - name: performance
     version: "3.17"
-  - name: pipeline-maven
-    version: "3.8.2"
   - name: pipeline-npm
     version: "0.9.2"
   - name: plugin-usage-plugin
@@ -290,3 +288,4 @@ jenkins_pv_plugins_absent:
   - name: file-leak-detector
   - name: monitoring
   - name: jabber
+  - name: pipeline-maven
