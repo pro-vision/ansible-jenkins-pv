@@ -252,6 +252,8 @@ jenkins_pv_plugins_present:
     version: "2.6.1"
   - name: ssh-agent
     version: "1.19"
+  - name: strict-crumb-issuer
+    version: "2.1.0"
   - name: subversion
     version: "2.13.1"
   - name: testng-plugin
