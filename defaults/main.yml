@@ -31,11 +31,11 @@ jenkins_pv_debug: false
 # Plugins and their versions that must be present on p!v jenkins instances
 jenkins_pv_plugins_present:
   - name: active-directory
-    version: "2.16"
+    version: "2.19"
   - name: aws-credentials
     version: "1.28"
   - name: aws-java-sdk
-    version: "1.11.821"
+    version: "1.11.854"
   - name: ansible
     version: "1.0"
   - name: ant
@@ -47,45 +47,45 @@ jenkins_pv_plugins_present:
   - name: blueocean-autofavorite
     version: "1.2.4"
   - name: blueocean-bitbucket-pipeline
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-commons
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-config
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-core-js
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-dashboard
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-display-url
-    version: "2.3.1"
+    version: "2.4.0"
   - name: blueocean-events
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-executor-info
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-git-pipeline
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-github-pipeline
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-i18n
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-jira
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-jwt
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-rest-impl
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-personalization
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-pipeline-api-impl
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-pipeline-editor
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-pipeline-scm-api
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-rest
-    version: "1.23.2"
+    version: "1.24.2"
   - name: blueocean-web
-    version: "1.23.2"
+    version: "1.24.2"
   - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-monitor-plugin
@@ -103,9 +103,9 @@ jenkins_pv_plugins_present:
   - name: clone-workspace-scm
     version: "0.6"
   - name: cloudbees-bitbucket-branch-source
-    version: "2.9.1"
+    version: "2.9.4"
   - name: copyartifact
-    version: "1.45.1"
+    version: "1.45.2"
   - name: conditional-buildstep
     version: "1.3.6"
   - name: configurationslicing
@@ -125,7 +125,7 @@ jenkins_pv_plugins_present:
   - name: disk-usage
     version: "0.28"
   - name: dtkit-api
-    version: "2.1.2"
+    version: "2.2.1"
   - name: envinject-api
     version: "1.7"
   - name: envinject
@@ -141,13 +141,13 @@ jenkins_pv_plugins_present:
   - name: gatling
     version: "1.3.0"
   - name: git-parameter
-    version: "0.9.12"
+    version: "0.9.13"
   - name: github
     version: "1.31.0"
   - name: github-api
-    version: "1.115"
+    version: "1.116"
   - name: github-branch-source
-    version: "2.8.3"
+    version: "2.9.1"
   - name: gitlab-api
     version: "1.0.6"
   - name: gitlab-branch-source
@@ -155,7 +155,7 @@ jenkins_pv_plugins_present:
   - name: greenballs
     version: "1.15"
   - name: groovy
-    version: "2.2"
+    version: "2.3"
   - name: groovy-postbuild
     version: "2.5"
   - name: h2-api
@@ -169,7 +169,7 @@ jenkins_pv_plugins_present:
   - name: instant-messaging
     version: "1.38"
   - name: jenkins-design-language
-    version: "1.23.2"
+    version: "1.24.2"
   - name: jira
     version: "3.1.1"
   - name: jobConfigHistory
@@ -181,11 +181,11 @@ jenkins_pv_plugins_present:
   - name: jquery-ui
     version: "1.0.2"
   - name: ldap
-    version: "1.24"
+    version: "1.26"
   - name: locale
     version: "1.4"
   - name: lockable-resources
-    version: "2.8"
+    version: "2.10"
   - name: log-parser
     version: "2.1"
   - name: m2release
@@ -195,11 +195,11 @@ jenkins_pv_plugins_present:
   - name: mask-passwords
     version: "2.13"
   - name: mattermost
-    version: "3.1.0"
+    version: "3.1.1"
   - name: matrix-auth
-    version: "2.6.2"
+    version: "2.6.4"
   - name: mercurial
-    version: "2.10"
+    version: "2.11"
   - name: msbuild
     version: "1.29"
   - name: multiple-scms
@@ -211,17 +211,17 @@ jenkins_pv_plugins_present:
   - name: pam-auth
     version: "1.6"
   - name: parameter-separator
-    version: "1.2"
+    version: "1.3"
   - name: parameterized-trigger
-    version: "2.37"
+    version: "2.39"
   - name: Parameterized-Remote-Trigger
-    version: "3.1.3"
+    version: "3.1.5.1"
   - name: performance
     version: "3.18"
   - name: pipeline-npm
     version: "0.9.2"
   - name: plugin-usage-plugin
-    version: "1.0"
+    version: "1.1"
   - name: publish-over
     version: "0.22"
   - name: publish-over-cifs
@@ -233,7 +233,7 @@ jenkins_pv_plugins_present:
   - name: resource-disposer
     version: "0.14"
   - name: role-strategy
-    version: "3.0"
+    version: "3.1"
   - name: ruby-runtime
     version: "0.12"
   - name: run-condition
@@ -249,7 +249,7 @@ jenkins_pv_plugins_present:
   - name: sse-gateway
     version: "1.23"
   - name: sonar
-    version: "2.11"
+    version: "2.12"
   - name: ssh
     version: "2.6.1"
   - name: ssh-agent
@@ -265,7 +265,7 @@ jenkins_pv_plugins_present:
   - name: text-finder
     version: "1.15"
   - name: throttle-concurrents
-    version: "2.0.2"
+    version: "2.0.3"
   - name: translation
     version: "1.16"
   - name: URLSCM
@@ -277,15 +277,15 @@ jenkins_pv_plugins_present:
   - name: violations
     version: "0.7.11"
   - name: warnings
-    version: "5.0.1"
+    version: "5.0.2"
   - name: windows-slaves
-    version: "1.6"
+    version: "1.7"
   - name: workflow-aggregator
     version: "2.6"
   - name: ws-cleanup
     version: "0.38"
   - name: xunit
-    version: "2.3.9"
+    version: "2.4.0"
 
 # Plugins that must be absent on p!v jenkins instances
 jenkins_pv_plugins_absent:
