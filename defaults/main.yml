@@ -32,13 +32,13 @@ jenkins_pv_debug: false
 # Plugins and their versions that must be present on p!v jenkins instances
 jenkins_pv_plugins_present:
   - name: active-directory
-    version: "2.19"
+    version: "2.23"
   - name: aws-credentials
     version: "1.28"
   - name: aws-java-sdk
-    version: "1.11.854"
+    version: "1.11.930"
   - name: ansible
-    version: "1.0"
+    version: "1.1"
   - name: ant
     version: "1.11"
   - name: artifactdeployer
@@ -48,45 +48,45 @@ jenkins_pv_plugins_present:
   - name: blueocean-autofavorite
     version: "1.2.4"
   - name: blueocean-bitbucket-pipeline
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-commons
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-config
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-core-js
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-dashboard
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-display-url
-    version: "2.4.0"
+    version: "2.4.1"
   - name: blueocean-events
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-executor-info
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-git-pipeline
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-github-pipeline
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-i18n
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-jira
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-jwt
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-rest-impl
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-personalization
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-pipeline-api-impl
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-pipeline-editor
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-pipeline-scm-api
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-rest
-    version: "1.24.2"
+    version: "1.24.4"
   - name: blueocean-web
-    version: "1.24.2"
+    version: "1.24.4"
   - name: build-blocker-plugin
     version: "1.7.3"
   - name: build-monitor-plugin
@@ -100,39 +100,37 @@ jenkins_pv_plugins_present:
   - name: build-timestamp
     version: "1.0.3"
   - name: claim
-    version: "2.16"
+    version: "2.18.1"
   - name: clone-workspace-scm
     version: "0.6"
   - name: cloudbees-bitbucket-branch-source
-    version: "2.9.4"
+    version: "2.9.7"
   - name: copyartifact
-    version: "1.45.2"
+    version: "1.46"
   - name: conditional-buildstep
-    version: "1.3.6"
+    version: "1.4.1"
   - name: configurationslicing
     version: "1.51"
   - name: copy-to-slave
     version: "1.4.4"
   - name: cvs
-    version: "2.16"
-  - name: dashboard-view
-    version: "2.13"
+    version: "2.17"
   - name: delivery-pipeline-plugin
     version: "1.4.2"
   - name: dependency-check-jenkins-plugin
     version: "5.1.1"
   - name: dependency-track
-    version: "2.3.0"
+    version: "3.0.2"
   - name: disk-usage
     version: "0.28"
   - name: dtkit-api
-    version: "2.2.1"
+    version: "3.0.0"
   - name: envinject-api
     version: "1.7"
   - name: envinject
     version: "2.3.0"
   - name: extensible-choice-parameter
-    version: "1.6.0"
+    version: "1.7.0"
   - name: extended-read-permission
     version: "3.2"
   - name: extra-columns
@@ -144,17 +142,17 @@ jenkins_pv_plugins_present:
   - name: git-parameter
     version: "0.9.13"
   - name: github
-    version: "1.31.0"
+    version: "1.32.0"
   - name: github-api
-    version: "1.116"
+    version: "1.122"
   - name: github-branch-source
-    version: "2.9.1"
+    version: "2.9.4"
   - name: gitlab-api
     version: "1.0.6"
   - name: gitlab-branch-source
-    version: "1.5.1"
+    version: "1.5.3"
   - name: greenballs
-    version: "1.15"
+    version: "1.15.1"
   - name: groovy
     version: "2.3"
   - name: groovy-postbuild
@@ -164,15 +162,17 @@ jenkins_pv_plugins_present:
   - name: handy-uri-templates-2-api
     version: "2.1.8-1.0"
   - name: htmlpublisher
-    version: "1.23"
+    version: "1.25"
   - name: icon-shim
     version: "2.0.3"
   - name: instant-messaging
-    version: "1.38"
+    version: "1.39"
   - name: jenkins-design-language
-    version: "1.24.2"
+    version: "1.24.4"
   - name: jira
-    version: "3.1.1"
+    version: "3.1.3"
+  - name: jjwt-api
+    version: "0.11.2-8.82737cbfa6f5"
   - name: jobConfigHistory
     version: "2.26"
   - name: job-import-plugin
@@ -198,9 +198,9 @@ jenkins_pv_plugins_present:
   - name: mattermost
     version: "3.1.1"
   - name: matrix-auth
-    version: "2.6.4"
+    version: "2.6.5"
   - name: mercurial
-    version: "2.11"
+    version: "2.12"
   - name: msbuild
     version: "1.29"
   - name: multiple-scms
@@ -226,9 +226,9 @@ jenkins_pv_plugins_present:
   - name: publish-over
     version: "0.22"
   - name: publish-over-cifs
-    version: "0.14"
+    version: "0.16"
   - name: publish-over-ssh
-    version: "1.20.1"
+    version: "1.22"
   - name: pubsub-light
     version: "1.13"
   - name: resource-disposer
@@ -238,9 +238,9 @@ jenkins_pv_plugins_present:
   - name: ruby-runtime
     version: "0.12"
   - name: run-condition
-    version: "1.3"
+    version: "1.5"
   - name: shelve-project-plugin
-    version: "3.0"
+    version: "3.1"
   - name: shiningpanda
     version: "0.24"
   - name: skip-notifications-trait
@@ -248,9 +248,9 @@ jenkins_pv_plugins_present:
   - name: slave-setup
     version: "1.10"
   - name: sse-gateway
-    version: "1.23"
+    version: "1.24"
   - name: sonar
-    version: "2.12"
+    version: "2.13"
   - name: ssh
     version: "2.6.1"
   - name: ssh-agent
@@ -258,7 +258,7 @@ jenkins_pv_plugins_present:
   - name: strict-crumb-issuer
     version: "2.1.0"
   - name: subversion
-    version: "2.13.1"
+    version: "2.14.0"
   - name: testng-plugin
     version: "1.15"
   - name: test-results-analyzer
@@ -266,13 +266,13 @@ jenkins_pv_plugins_present:
   - name: text-finder
     version: "1.15"
   - name: throttle-concurrents
-    version: "2.0.3"
+    version: "2.1"
   - name: translation
     version: "1.16"
   - name: URLSCM
     version: "1.6"
   - name: variant
-    version: "1.3"
+    version: "1.4"
   - name: view-job-filters
     version: "2.3"
   - name: violations
@@ -286,7 +286,7 @@ jenkins_pv_plugins_present:
   - name: ws-cleanup
     version: "0.38"
   - name: xunit
-    version: "2.4.0"
+    version: "3.0.0"
 
 # Plugins that must be absent on p!v jenkins instances
 jenkins_pv_plugins_absent:
