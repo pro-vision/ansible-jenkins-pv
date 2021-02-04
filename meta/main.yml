@@ -1,3 +1,4 @@
+---
 galaxy_info:
   role_name: jenkins_pv
   author: Tobias Richter
@@ -25,14 +26,13 @@ galaxy_info:
     - pipeline
 dependencies:
   # install p!v jenkins specific plugins
-  - { role: wcm_io_devops.jenkins_plugins,
-      version: 1.5.1,
-      jenkins_plugins_admin_username: "{{ jenkins_pv_admin_username }}",
-      jenkins_plugins_admin_password: "{{ jenkins_pv_admin_password }}",
-      jenkins_plugins_jenkins_home: "{{ jenkins_pv_jenkins_home }}",
-      jenkins_plugins_jenkins_hostname: "{{ jenkins_pv_jenkins_hostname }}",
-      jenkins_plugins_jenkins_port: "{{ jenkins_pv_jenkins_port }}",
-      jenkins_plugins_jenkins_url_prefix: "{{ jenkins_pv_jenkins_url_prefix }}",
-      jenkins_plugins_present: "{{ jenkins_pv_plugins_present }}",
-      jenkins_plugins_absent: "{{ jenkins_pv_plugins_absent }}"
-   }
+  - role: wcm_io_devops.jenkins_plugins
+    version: 1.5.1
+    jenkins_plugins_admin_username: "{{ jenkins_pv_admin_username }}"
+    jenkins_plugins_admin_password: "{{ jenkins_pv_admin_password }}"
+    jenkins_plugins_jenkins_home: "{{ jenkins_pv_jenkins_home }}"
+    jenkins_plugins_jenkins_hostname: "{{ jenkins_pv_jenkins_hostname }}"
+    jenkins_plugins_jenkins_port: "{{ jenkins_pv_jenkins_port }}"
+    jenkins_plugins_jenkins_url_prefix: "{{ jenkins_pv_jenkins_url_prefix }}"
+    jenkins_plugins_present: "{{ jenkins_pv_plugins_present }}"
+    jenkins_plugins_absent: "{{ jenkins_pv_plugins_absent }}"
