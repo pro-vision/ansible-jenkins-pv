@@ -32,7 +32,7 @@ jenkins_pv_debug: false
 # Plugins and their versions that must be present on p!v jenkins instances
 jenkins_pv_plugins_present:
   - name: active-directory
-    version: "2.23"
+    version: "2.24"
   - name: aws-credentials
     version: "1.29"
   - name: aws-java-sdk
@@ -48,51 +48,51 @@ jenkins_pv_plugins_present:
   - name: blueocean-autofavorite
     version: "1.2.4"
   - name: blueocean-bitbucket-pipeline
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-commons
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-config
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-core-js
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-dashboard
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-display-url
     version: "2.4.1"
   - name: blueocean-events
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-executor-info
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-git-pipeline
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-github-pipeline
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-i18n
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-jira
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-jwt
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-rest-impl
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-personalization
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-pipeline-api-impl
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-pipeline-editor
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-pipeline-scm-api
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-rest
-    version: "1.24.6"
+    version: "1.24.7"
   - name: blueocean-web
-    version: "1.24.6"
+    version: "1.24.7"
   - name: build-blocker-plugin
     version: "1.7.7"
   - name: build-monitor-plugin
     version: "1.12+build.201809061734"
   - name: build-name-setter
-    version: "2.1.0"
+    version: "2.2.0"
   - name: build-pipeline-plugin
     version: "1.5.8"
   - name: build-timeout
@@ -104,9 +104,9 @@ jenkins_pv_plugins_present:
   - name: clone-workspace-scm
     version: "0.6"
   - name: cloudbees-bitbucket-branch-source
-    version: "2.9.8"
+    version: "2.9.9"
   - name: copyartifact
-    version: "1.46"
+    version: "1.46.1"
   - name: conditional-buildstep
     version: "1.4.1"
   - name: configurationslicing
@@ -114,7 +114,7 @@ jenkins_pv_plugins_present:
   - name: copy-to-slave
     version: "1.4.4"
   - name: cvs
-    version: "2.18"
+    version: "2.19"
   - name: delivery-pipeline-plugin
     version: "1.4.2"
   - name: dependency-check-jenkins-plugin
@@ -146,15 +146,15 @@ jenkins_pv_plugins_present:
   - name: github-api
     version: "1.123"
   - name: github-branch-source
-    version: "2.10.2"
+    version: "2.11.1"
   - name: gitlab-api
     version: "1.0.6"
   - name: gitlab-branch-source
-    version: "1.5.6"
+    version: "1.5.7"
   - name: greenballs
     version: "1.15.1"
   - name: groovy
-    version: "2.3"
+    version: "2.4"
   - name: groovy-postbuild
     version: "2.5"
   - name: h2-api
@@ -168,9 +168,9 @@ jenkins_pv_plugins_present:
   - name: instant-messaging
     version: "1.42"
   - name: jenkins-design-language
-    version: "1.24.6"
+    version: "1.24.7"
   - name: jira
-    version: "3.2.1"
+    version: "3.3"
   - name: jjwt-api
     version: "0.11.2-9.c8b45b8bb173"
   - name: jobConfigHistory
@@ -182,11 +182,11 @@ jenkins_pv_plugins_present:
   - name: jquery-ui
     version: "1.0.2"
   - name: ldap
-    version: "2.6"
+    version: "2.7"
   - name: locale
     version: "1.4"
   - name: lockable-resources
-    version: "2.10"
+    version: "2.11"
   - name: log-parser
     version: "2.1"
   - name: m2release
@@ -198,13 +198,13 @@ jenkins_pv_plugins_present:
   - name: mattermost
     version: "3.1.1"
   - name: matrix-auth
-    version: "2.6.6"
+    version: "2.6.7"
   - name: mercurial
-    version: "2.14"
+    version: "2.15"
   - name: msbuild
     version: "1.30"
   - name: multiple-scms
-    version: "0.6"
+    version: "0.8"
   - name: nvm-wrapper
     version: "0.1.7"
   - name: okhttp-api
@@ -230,7 +230,7 @@ jenkins_pv_plugins_present:
   - name: publish-over-ssh
     version: "1.22"
   - name: pubsub-light
-    version: "1.13"
+    version: "1.14"
   - name: resource-disposer
     version: "0.15"
   - name: role-strategy
@@ -250,7 +250,7 @@ jenkins_pv_plugins_present:
   - name: sse-gateway
     version: "1.24"
   - name: sonar
-    version: "2.13"
+    version: "2.13.1"
   - name: ssh
     version: "2.6.1"
   - name: ssh-agent
@@ -258,13 +258,13 @@ jenkins_pv_plugins_present:
   - name: strict-crumb-issuer
     version: "2.1.0"
   - name: subversion
-    version: "2.14.0"
+    version: "2.14.2"
   - name: testng-plugin
     version: "1.15"
   - name: test-results-analyzer
     version: "0.3.5"
   - name: text-finder
-    version: "1.15"
+    version: "1.16"
   - name: throttle-concurrents
     version: "2.2"
   - name: translation
@@ -280,7 +280,7 @@ jenkins_pv_plugins_present:
   - name: warnings
     version: "5.0.2"
   - name: windows-slaves
-    version: "1.7"
+    version: "1.8"
   - name: workflow-aggregator
     version: "2.6"
   - name: ws-cleanup
