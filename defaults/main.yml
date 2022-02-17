@@ -38,15 +38,25 @@ jenkins_pv_plugins_present:
   - name: aws-java-sdk
     version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-logs
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-ec2
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-elasticbeanstalk
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-ssm
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-codebuild
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-minimal
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-cloudformation
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-ecs
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-iam
+    version: "1.12.131-302.vbef9650c6521"
   - name: aws-java-sdk-ecr
+    version: "1.12.131-302.vbef9650c6521"
   - name: ansible
     version: "1.1"
   - name: ant
