@@ -290,6 +290,7 @@ jenkins_pv_plugins_present:
 # Plugins that must be absent on p!v jenkins instances
 jenkins_pv_plugins_absent:
   - name: blueocean-executor-info
+  - name: ci-game
   - name: copy-to-slave
   - name: file-leak-detector
   - name: icon-shim
