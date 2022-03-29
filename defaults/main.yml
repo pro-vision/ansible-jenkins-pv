@@ -91,8 +91,6 @@ jenkins_pv_plugins_present:
     version: "1.25.3"
   - name: blueocean-jwt
     version: "1.25.3"
-  - name: blueocean-rest-impl
-    version: "1.25.3"
   - name: blueocean-personalization
     version: "1.25.3"
   - name: blueocean-pipeline-api-impl
@@ -102,6 +100,8 @@ jenkins_pv_plugins_present:
   - name: blueocean-pipeline-scm-api
     version: "1.25.3"
   - name: blueocean-rest
+    version: "1.25.3"
+  - name: blueocean-rest-impl
     version: "1.25.3"
   - name: blueocean-web
     version: "1.25.3"
