@@ -171,6 +171,8 @@ jenkins_pv_plugins_present:
     version: "5.0.1-78.v47a_45b_9f78b_7"
   - name: gitlab-branch-source
     version: "633.ved9984f943da_"
+  - name: gradle
+    version: "1.39.4"
   - name: greenballs
     version: "1.15.1"
   - name: groovy
