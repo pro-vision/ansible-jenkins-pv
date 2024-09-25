@@ -1,3 +1,7 @@
+> :information_source: **Unmaintained**
+>
+> This project is currently not maintained.
+
 # pro_vision.jenkins_pv
 
 This role manages the installation, update and uninstallation of Plugins
